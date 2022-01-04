@@ -34,10 +34,6 @@ class App extends Component {
     }
   }
 
-  componentDidUnmount() {
-
-  }
-
   addContact = (data) => {
     const contact = {
       id: nanoid(),
